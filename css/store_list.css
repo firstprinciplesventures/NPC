@@ -1,0 +1,332 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    box-sizing: border-box;
+    font-size: 0.9rem;
+    background-color: #F0F1EF;
+}
+
+.main-container {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+/* style for store_list */
+
+.icon-panel {
+    background-color: #f3f3f3;
+    padding: 0;
+    height: 43px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.date {
+    float: right;
+    padding-top: 7px;
+}
+
+.date > h3 {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 600;
+    font-family:'Brandon';
+    margin-bottom: 0px;
+}
+
+.date > a {
+    color: #0085bd;
+    font-size: 0.8rem;
+    font-family:'Brandon_reg';
+}
+
+.date-arrow {
+    vertical-align: middle;
+}
+
+/* end for icon panel */
+
+.content-area {
+    background-color: #fff;
+}
+
+.sidebar, .list-content {
+    margin-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.sidebar > h6 {
+    color: #000;
+    padding-top: 10px;
+    padding-left: 8px;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 0.8rem;
+    font-family: 'Brandon';
+}
+
+.frequently {
+    color: #5c5c5c !important;
+    font-weight: 400 !important; 
+    font-size: 0.9rem !important;
+}
+
+.frequently-arrow{
+    vertical-align: middle;
+}
+
+.sidebar-heading {
+    padding-top: 0px !important;
+    padding-bottom: 8px;
+}
+
+.sidebar > hr{
+    padding-left: 8px;
+    color: #484848;
+    margin: 5px 0px 5px 8px !important;
+    width: 70%;
+}
+
+.sidebar > ul > a > li {
+    list-style-type: none;
+    color: #5c5c5c;
+    font-size: 0.8rem;
+    line-height: 30px;
+}
+
+.sidebar > ul > a > li > span {
+    vertical-align: middle;
+    margin-left: 5px; 
+    font-family:'Brandon_reg';
+}
+
+.vertical {
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+}
+
+.list-content {
+    padding-right: 2.5px;
+}
+
+.order-guide {
+    background-color: #EAE9B1;
+    height: 40px;
+}
+
+.order-guide > h6 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.order-guide > h6 > span {
+    color: #0085bd;
+}
+
+.heading {
+    color: #000;
+    font-size: 1.25rem;
+    font-family:'Brandon_reg';
+}
+
+.list-row {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
+}
+
+.lists{
+    margin-top: 12px;
+}
+
+.drag-down {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.label{
+    color: #999;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-family: 'Brandon';
+    font-weight: normal;
+}
+
+.dis {
+    font-family: 'Brandon';
+}
+
+.square {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    background-color: #000;
+    text-align:center; 
+    color:#fff;
+    vertical-align: middle;
+   }
+
+.input-square {
+    height: 25px;
+    width: 25px;
+    background-color: #e4e4e4;
+    text-align:center;
+    border: none;
+    vertical-align: middle;
+}
+
+.selection-btn {
+    height: 105px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn{
+    position: absolute;
+    top: 20%;
+}
+
+.footer-container {
+    width: 100%;
+}
+
+footer{
+    height: 60px;
+    text-align: right;
+}
+
+footer > img{
+    margin-top: 10px;
+    right: 30px;
+    display: inline-block;
+}
+
+/* fonts */
+@font-face{
+    font-family:'Brandon';
+    src:url('../assets/fonts/Brandon_bld.otf');
+}
+@font-face{
+    font-family:'Brandon_reg';
+    src:url('../assets/fonts/Brandon_reg.otf');
+}
+
+/* media queries */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .default-container {
+        margin: 0 27px;
+    }
+    .main-content{
+        padding: 0px;
+    }
+    .lists {
+        text-align: center;
+    }
+    .order-guide > h6 {
+        text-align: center;
+        margin: 0px !important;
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .icons > p {
+        display: none;
+    }
+    .btn {
+        position: absolute;
+        top: 30% !important;
+    }
+    .logo-img, .top-icon{
+        position: relative;
+    }
+    .logo {
+        position: absolute;
+        left: 30%;
+    }
+    .materials{
+        position: absolute;
+        display: none; 
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .main-container {
+        width: 90%;
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 30px 40px;
+    }
+    .lists {
+        text-align: center;
+    }
+    .order-guide > h6 {
+        text-align: center;
+        margin: 0px !important;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .btn {
+        position: absolute;
+        top: 30% !important;
+    }
+    .materials{
+        position: absolute;
+        left: 50%; 
+    }
+
+    .footer-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .main-container {
+        width: 90%;
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 30px 40px;
+    }
+
+    .btn {
+        position: absolute;
+        top: 30% !important;
+    }
+    .top-icon, .logo-img {
+        float: left;
+    }
+
+    .footer-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+    .main-container {
+        width: 80%;
+        background-color: #fff;
+        margin: 0 auto;
+        padding: 30px 40px;
+    }
+
+    .footer-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

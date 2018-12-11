@@ -1,0 +1,70 @@
+@font-face{
+	font-family:'Brandon';
+	src:url('../assets/fonts/Brandon_bld.otf');
+}
+@font-face{
+	font-family:'Brandon_light';
+	src:url('../assets/fonts/Brandon_light.otf');
+}
+@font-face{
+	font-family:'Brandon_reg_it';
+	src:url('../assets/fonts/Brandon_reg_it.otf');
+}
+
+body{
+	background-color: #f1f1ef;
+	font-family: 'Brandon'
+}
+
+.navbar {
+	padding-left: 0;
+}
+
+.navbar-toggler, .navbar-collapse {
+	margin-left: 2.5%;
+}
+
+/*.nav-list{
+	padding-top: 40px;
+}*/
+
+.nav{
+	padding-top: 40px;
+}
+
+.logo{
+	max-width: 120px;
+	object-fit: fill;
+	text-align: center;
+	margin-left: 2.5%;
+}
+
+a:link {
+	color: #000;
+}
+
+.nav-link {
+	font-weight: bold;
+}
+
+.redirect{
+	margin-top: -5px;
+}
+
+@media only screen and (min-width: 576px) {
+	.navbar-toggler, .navbar-collapse {
+		margin-left: 5%;
+	}
+
+	.logo {
+		float:right;
+		margin-left: 5%;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.nav-define{
+		width: fit-content;
+		margin:0 auto;
+	}
+}

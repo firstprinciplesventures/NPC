@@ -1,0 +1,136 @@
+@font-face {
+	font-family: Beyond-the-mountains;
+	src:url(../assets/fonts/beyond_the_mountains.otf);
+}
+
+@font-face {
+   font-family: Brandon-reg;
+   src: url(../assets/fonts/Brandon_reg.otf);
+}
+
+@font-face {
+   font-family: Brandon-med;
+   src: url(../assets/fonts/Brandon_med.otf);
+}
+
+body {
+	height: 100vh;
+	width: 100vw;
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: right;
+}
+
+.left-container {
+	height: 100vh;
+}
+
+.logo {
+	display: block;
+	margin: 0 auto;
+}
+
+.form-container {
+	background-color: #e1cb3a;
+	border-radius: 10px;
+	margin: 0 auto;
+	width: 21rem;
+	padding: 30px;
+}
+
+.tag-line {
+	font-family: Brandon-reg;
+	font-size: 1.2rem;
+}
+
+.login-button {
+	background-color: #000;
+	color: #d2d2d2;
+	font-family: Brandon-reg;
+	letter-spacing: 2px;
+	margin:0 auto;
+	width: 80%;
+}
+
+.forgot-msg {
+	font-family: Brandon-med;
+	color: #d30000;
+}
+
+.forgot-msg-container {
+	color: #FF0000;
+	display: block;
+	margin:0 auto;
+	width: 100%;
+	font-size: 1rem;
+}
+
+.right-container {
+	display: none;
+}
+
+.right-top {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.beyond-the-mountains-font {
+	font-family: 'Beyond-the-mountains';
+	font-size: 4rem;
+}
+
+.brand-moto {
+	background-color: #fff;
+	opacity: 0.9;
+	border-radius: 50%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	padding: 45px;
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	top: 40%;
+	transform: translateY(-50%);
+	width: max-content;
+}
+
+.red {
+	color: red;
+}
+
+@media only screen and (min-height: 700px) {
+	.middle {
+		position: relative;
+		top: 45%;
+		transform: translateY(-50%);
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 769px) {
+	body {
+		background-image: url('../assets/img/800px.jpg');
+		overflow: hidden;
+	}
+
+	.right-container {
+		display: none;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+	body {
+		background-image: url('../assets/img/800px.jpg');
+		overflow: hidden;
+	}
+
+	.middle {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+    .right-container {
+		display: block;
+    }
+}

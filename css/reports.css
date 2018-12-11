@@ -1,0 +1,60 @@
+@font-face {
+   font-family: Brandon-med;
+   src: url(../assets/fonts/Brandon_med.otf);
+}
+
+@font-face {
+   font-family: Brandon-reg;
+   src: url(../assets/fonts/Brandon_reg.otf);
+}
+
+.row {
+	margin-right: 0;
+}
+
+body{
+	background-color: #F0F1EF;
+	font-family: Brandon-reg;
+}
+
+.main-container {
+	width: 95%;
+	background-color: #fff;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.report{
+	font-family: Brandon-med;
+	font-size: 1.6rem;
+	padding-bottom: 2rem;
+}
+
+.report-container {
+	padding-bottom: 2rem;
+}
+
+.report-title {
+	font-family: Brandon-med;
+	font-size: 1.4rem;
+	display: block;
+}
+
+.report-text{
+	color:#909090;
+	font-family:Brandon-reg;
+	font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 576px) {
+	.main-container {
+		width: 90%;
+		padding: 30px 40px;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	.main-container {
+		width: 80%;
+	}
+}
